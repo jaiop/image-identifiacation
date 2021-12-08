@@ -1,0 +1,30 @@
+body
+{
+    background-color:moccasin;
+}
+h1
+{
+    color: lime;
+    background-color:rgb(42, 42, 158);
+}
+#show-sketch
+{
+    float:right;
+}
+canvas
+{
+    border: 5px solid black;
+    animation-name: example;
+    animation-duration:4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    from {box-shadow: 1px 1px 38px white;}
+    to {box-shadow: 1px 1px 38px grey;}
+}
+p
+{
+    font-size: 23px;
+}
